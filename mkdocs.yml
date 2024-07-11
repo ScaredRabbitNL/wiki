@@ -1,5 +1,5 @@
 site_name: Scared's Mods & Plugins | Documentation
-site_url: https://scaredsmods.github.io/
+site_url: https://scaredrabbitnl.github.io/docs
 nav: 
 - Home: 
     - 'index.md'
@@ -43,8 +43,10 @@ nav:
     - Mod version schemes: 'version-schemes/mod.md'
     - Plugin version schemes: 'version-schemes/plugin.md'
 
-repo_name: scaredsmods/scaredsmods.github.io
-repo_url: https://github.com/scaredsmods/scaredsmods.github.io
+repo_name: scaredrabbitnl/docs/
+repo_url: https://github.com/ScaredRabbitNL/docs
+
+
 
 theme: 
   name: material
