@@ -1,0 +1,119 @@
+site_name: Scared's Mods & Plugins | Documentation
+site_url: https://scaredsmods.github.io/
+nav: 
+- Home: 
+    - 'index.md'
+    - Mods: 'mods/index.md'
+    - Plugins: 'plugins/index.md'
+    - Credits: 'credits.md'
+- Mods:
+    - 'mods/index.md'
+    - More Outputs API: 
+      - Getting Started: 'mods/more-outputs-api/index.md'
+      - Extra information: 'mods/more-outputs-api/extra-info.md'
+      - Block: 'mods/more-outputs-api/block.md'
+      - Block Entity: 
+          - 'mods/more-outputs-api/block-entity/index.md'
+          - Two Outputs: 'mods/more-outputs-api/block-entity/two-outputs/index.md'
+          - Three Outputs: 'mods/more-outputs-api/block-entity/three-outputs/index.md'
+          - Four Outputs: 'mods/more-outputs-api/block-entity/four-outputs/index.md'
+      - Recipes: 
+          - Making a custom recipe: 'mods/more-outputs-api/recipe/index.md'
+          - Two output recipe: 'mods/more-outputs-api/recipe/two-output-recipe/index.md'
+          - Three output recipe: 'mods/more-outputs-api/recipe/three-output-recipe/index.md'
+          - Four output recipe: 'mods/more-outputs-api/recipe/four-output-recipe/index.md'
+      - Screenhandlers: 
+          - Getting started with screenhandlers: 'mods/more-outputs-api/screen/index.md'
+          - Example screen handler: 'mods/more-outputs-api/screen/examplescreenhandler.md'
+          - Example screen: 'mods/more-outputs-api/screen/examplescreen.md'
+          
+      - Finishing up:
+          - Registering: 'mods/more-outputs-api/registering.md'
+          - Connecting screen: 'mods/more-outputs-api/connecting.md'
+          - Other things: 'mods/more-outputs-api/other-things.md'
+- Plugins: 
+    - 'plugins/index.md'
+    - SubCommandLib: 
+      - Getting Started: 'plugins/subcommandlib/index.md'
+      - Manager class: 'plugins/subcommandlib/manager.md'
+      - Adding Subcommands: 'plugins/subcommandlib/subcommands.md'
+      - Registering: 'plugins/subcommandlib/registering.md'
+- Version Schemes: 
+    - 'version-schemes/index.md'
+    - Mod version schemes: 'version-schemes/mod.md'
+    - Plugin version schemes: 'version-schemes/plugin.md'
+
+repo_name: scaredsmods/scaredsmods.github.io
+repo_url: https://github.com/scaredsmods/scaredsmods.github.io
+
+theme: 
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    annotation: material/plus-circle
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - content.code.copy
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.footer
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+
+markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.caret
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/@scaredrabbitnl
+    - icon: simple/modrinth
+      link: https://modrinth.com/user/scaredrabbitnl_
+    - icon: simple/curseforge
+      link: https://www.curseforge.com/members/scaredrabbitnl/projects
