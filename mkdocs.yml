@@ -1,13 +1,15 @@
-site_name: Scared's Mods & Plugins | Documentation
-site_url: https://scaredrabbitnl.github.io/docs
+site_name: Scared's Mods & Plugins | Wiki
+site_url: https://scaredrabbitnl.github.io/wiki/
 nav: 
 - Home: 
-    - 'index.md'
+    - Welcome: 'index.md'
     - Mods: 'mods/index.md'
     - Plugins: 'plugins/index.md'
     - Credits: 'credits.md'
 - Mods:
     - 'mods/index.md'
+    - Reworked Netherite:
+      - Getting Started: 'mods/reworked-netherite/index.md'
     - More Outputs API: 
       - Getting Started: 'mods/more-outputs-api/index.md'
       - Extra information: 'mods/more-outputs-api/extra-info.md'
@@ -43,8 +45,8 @@ nav:
     - Mod version schemes: 'version-schemes/mod.md'
     - Plugin version schemes: 'version-schemes/plugin.md'
 
-repo_name: scaredrabbitnl/docs/
-repo_url: https://github.com/ScaredRabbitNL/docs
+repo_name: scaredrabbitnl/wiki/
+repo_url: https://github.com/ScaredRabbitNL/wiki/
 
 
 
@@ -119,3 +121,4 @@ extra:
       link: https://modrinth.com/user/scaredrabbitnl_
     - icon: simple/curseforge
       link: https://www.curseforge.com/members/scaredrabbitnl/projects
+
