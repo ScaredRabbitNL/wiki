@@ -3,6 +3,9 @@
 
 ## Standalone mods
 
+### [ReworkedNetherite](../mods/reworked-netherite/index.md)
+
+ReworkedNetherite currently is a vanilla style upgrade on netherite. The mod adds more nether(ite) themed features such as a liquid or a bow. Currently, the mod doesn't provide very many features however, it does provide netherite ore generation like any other ore in existence. The mod may not be that useful on itself, however, in modpacks where there is so many netherite required, this may be a very handy mod to have in a modpack. In the future, I plan on turning this mod into a netherite themed tech mod. How or when, I don't know yet.
 ## Library and API
 
 ### [More Outputs API](../mods/more-outputs-api/index.md)
